@@ -1,31 +1,43 @@
-import ImageScroller from "./ImageScroller"
+import { useEffect, useState } from "react";
+import ImageScroller from "./ImageScroller";
+import Calendar from "./Calendar";
+import Announcements from "./Announcements";
 
-export default function About() {
+export default function About({ aboutText }) {
+  const [navbarHeight, setNavbarHeight] = useState(0);
+
+  useEffect(() => {
+    const navbar = document.querySelector("header");
+    if (!navbar) return;
+
+    const updateHeight = () => {
+      setNavbarHeight(navbar.offsetHeight + 20);
+    };
+
+    updateHeight();
+    window.addEventListener("resize", updateHeight);
+    return () => window.removeEventListener("resize", updateHeight);
+  }, []);
+
   return (
     <>
-        <section id="about" className="max-w-4xl mx-auto mt-40 pb-10 px-4">
-        <h3 className="text-3xl font-bold mb-6">About Us</h3>
-        <p className="leading-relaxed">
-            The Angelo State Computer Science Club connects students who are passionate
-            about software development, AI, and cyberscurity. We host events, hackathons,
-            and study groups to help members grow together.
-        </p>      
+      <div
+        className="max-w-4xl mx-auto px-4"
+        style={{ marginTop: `${navbarHeight}px` }}
+      >
+        <section id="about" className="pb-10">
+          <h3 className="text-2xl sm:text-3xl font-bold mb-6">About Us</h3>
+          <p className="leading-relaxed text-sm sm:text-base">
+            {aboutText}
+          </p>
         </section>
 
-        <section className="events max-w-4xl mx-auto py-10 px-4">
-            <h2>Upcoming Events</h2>
-            <div class="event-item">
-            <strong>Hackathon Kickoff:</strong> Month Day, 2025 @ Time
-            </div>
-            <div class="event-item">
-            <strong>Guest Speaker - AI in Industry:</strong> Month Day, 2025 @ Time
-            </div>
-            <div class="event-item">
-            <strong>Game Dev Workshop:</strong> Month Day, 2025 @ Time
-            </div>
-        </section>
+        <Announcements />
 
-        <ImageScroller />
-     </>
+        <Calendar />
+      </div>
+
+      <ImageScroller />
+    </>
   );
 }
