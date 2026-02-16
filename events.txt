@@ -1,0 +1,7 @@
+# Use '#' to add comments
+# Example events:
+# 2026-02-15|Example Event 1|6:00 PM|MCS 115
+# 2026-02-22|Example Event 2|4:00 PM|MCS 115
+# 2026-03-01|Example Event 3|5:00 PM|MCS 115
+# 2026-03-15|Example Event 4|3:00 PM|MCS 115
+# 2026-04-05|Example Event 5|7:00 PM|MCS 115
