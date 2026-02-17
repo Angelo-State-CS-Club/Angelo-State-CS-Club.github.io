@@ -52,7 +52,7 @@ The site will be available at `http://localhost:5173/Angelo-State-CS-Club/`
 
 ## Updating Content
 
-All content files are in the `public/` folder. Editing these files does **not** require any code knowledge and only affects the text content of the website.
+All content files are in the `public/` folder. Editing these files does **not** require altering any code and only affects the text content of the website.
 
 ### About Text
 
