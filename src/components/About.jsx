@@ -22,7 +22,7 @@ export default function About({ aboutText }) {
   return (
     <>
       <div
-        className="max-w-4xl mx-auto px-4"
+        className="max-w-4xl mx-auto px-4 flex-1 flex flex-col justify-evenly"
         style={{ marginTop: `${navbarHeight}px` }}
       >
         <section id="about" className="pb-10">

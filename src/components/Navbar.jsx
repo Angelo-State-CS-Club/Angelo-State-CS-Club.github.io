@@ -6,9 +6,8 @@ export default function Navbar() {
   // Track scroll position to toggle sticky header appearance
   useEffect(() => {
     const handleScroll = () => {
-      // Trigger sticky mode after scrolling past the hero (100vh)
-      const heroHeight = window.innerHeight;
-      setIsScrolled(window.scrollY > heroHeight - 80);
+      // Collapse navbar after scrolling a small amount
+      setIsScrolled(window.scrollY > 100);
     };
 
     window.addEventListener("scroll", handleScroll);

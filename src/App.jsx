@@ -20,7 +20,7 @@ export default function App() {
     <div id="top" className="font-sans text-gray-900 bg-gray-50">
       <Navbar />
       <Hero aboutText={aboutText} />
-      <main className="flex flex-col">
+      <main className="flex flex-col justify-evenly min-h-screen">
         <About aboutText={aboutText} />
       </main>
       <Footer />
