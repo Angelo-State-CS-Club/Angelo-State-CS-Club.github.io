@@ -2,7 +2,7 @@
 
 Official website for the Computer Science Club at Angelo State University.
 
-🔗 **Live site:** [soot0-joshr.github.io/Angelo-State-CS-Club](https://soot0-joshr.github.io/Angelo-State-CS-Club/)
+🔗 **Live site:** [Angelo-State-CS-Club.github.io](https://Angelo-State-CS-Club.github.io/)
 
 ---
 
