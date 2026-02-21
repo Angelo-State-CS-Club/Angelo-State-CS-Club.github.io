@@ -21,7 +21,7 @@ export default function App() {
       <Navbar />
       <Hero aboutText={aboutText} />
       <main className="flex flex-col justify-evenly min-h-screen">
-        <About aboutText={aboutText} />
+        <About />
       </main>
       <Footer />
     </div>

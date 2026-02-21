@@ -112,7 +112,7 @@ button:focus-visible {
   z-index: 1;
   text-align: center;
   padding: 2rem;
-  max-width: 800px;
+  max-width: 90vw;
 }
 
 .hero-title {
@@ -122,6 +122,9 @@ button:focus-visible {
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   margin-bottom: 0.5rem;
   letter-spacing: -0.02em;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
 }
 
 .hero-cursor {
@@ -277,5 +280,37 @@ button:focus-visible {
 
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* Social icon hover bounce */
+.social-icon {
+  transition: color 0.3s ease;
+}
+
+.group:hover .social-icon {
+  color: #eab308;
+  animation: social-bounce 0.5s ease;
+}
+
+@keyframes social-bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+
+  25% {
+    transform: translateY(-10px) scale(1.15);
+  }
+
+  50% {
+    transform: translateY(-2px) scale(1.05);
+  }
+
+  75% {
+    transform: translateY(-5px) scale(1.08);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
   }
 }

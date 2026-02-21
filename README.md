@@ -56,7 +56,7 @@ All content files are in the `public/` folder. Editing these files does **not** 
 
 ### About Text
 
-Edit **`public/about.txt`** to change the About Us paragraph. This text also appears in the Hero section at the top of the page.
+Edit **`public/about.txt`** to change the text that appears in the Hero section at the top of the page (below the typewriter text).
 
 ### Events / Calendar
 

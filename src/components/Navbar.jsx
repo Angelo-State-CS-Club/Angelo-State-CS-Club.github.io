@@ -47,12 +47,6 @@ export default function Navbar() {
               }`}>
               Computer Science Club
             </h1>
-            <p className={`text-yellow-300 transition-all duration-300 ${isScrolled
-              ? 'hidden'
-              : 'hidden sm:block text-xs sm:text-sm md:text-base'
-              }`}>
-              Innovate. Collaborate. Code.
-            </p>
           </div>
         </div>
       </div>

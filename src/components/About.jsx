@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import ImageScroller from "./ImageScroller";
 import Calendar from "./Calendar";
 import Announcements from "./Announcements";
+import Socials from "./Socials";
 
-export default function About({ aboutText }) {
+export default function About() {
   const [navbarHeight, setNavbarHeight] = useState(0);
 
   useEffect(() => {
@@ -25,12 +26,7 @@ export default function About({ aboutText }) {
         className="max-w-4xl mx-auto px-4 flex-1 flex flex-col justify-evenly"
         style={{ marginTop: `${navbarHeight}px` }}
       >
-        <section id="about" className="pb-10">
-          <h3 className="text-2xl sm:text-3xl font-bold mb-6">About Us</h3>
-          <p className="leading-relaxed text-sm sm:text-base">
-            {aboutText}
-          </p>
-        </section>
+        <Socials />
 
         <Announcements />
 
