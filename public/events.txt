@@ -2,6 +2,6 @@
  2026-03-05|Green Coding|4:00 PM|MCS 114
  2026-03-20|Touching Grass Cleanup|11:00 AM|Kid's Kingdom
  2026-04-02|Save The Water|4:00 PM|MCS 114
-# 2026-04-16|AI Ethics|4:00 PM|MCS 114
-# 2026-04-30|I Spy|4:00 PM|MCS 114
-# 2026-05-13|Computer Barebones|4:00 PM|MCS 114
+ 2026-04-16|AI Ethics|4:00 PM|MCS 114
+ 2026-04-30|I Spy|4:00 PM|MCS 114
+ 2026-05-13|Computer Barebones|4:00 PM|MCS 114
