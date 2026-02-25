@@ -1,7 +1,7 @@
-# Use '#' to add comments
- 2026-03-05|Green Coding|4:00 PM|MCS 114
+# Use '#' to add comments Note: dates set themselves one day back
+ 2026-03-06|Green Coding|4:00 PM|MCS 114
  2026-03-20|Touching Grass Cleanup|11:00 AM|Kid's Kingdom
- 2026-04-02|Save The Water|4:00 PM|MCS 114
- 2026-04-16|AI Ethics|4:00 PM|MCS 114
- 2026-04-30|I Spy|4:00 PM|MCS 114
- 2026-05-13|Computer Barebones|4:00 PM|MCS 114
+ 2026-04-03|Save The Water|4:00 PM|MCS 114
+ 2026-04-17|AI Ethics|4:00 PM|MCS 114
+ 2026-04-31|I Spy|4:00 PM|MCS 114
+ 2026-05-14|Computer Barebones|4:00 PM|MCS 114
